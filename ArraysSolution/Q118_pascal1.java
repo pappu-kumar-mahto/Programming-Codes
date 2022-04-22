@@ -31,5 +31,6 @@ class Q118_pascal1 {
         int numRows = input.nextInt();
         List<List<Integer>> ans = generate(numRows);
         System.out.println(ans);
+        input.close();
    }
 }
